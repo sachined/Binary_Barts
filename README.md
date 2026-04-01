@@ -1,6 +1,5 @@
 ## 2. Binary_Barts
 
-```markdown
 # 🔢 Binary Barts
 
 A C++ translation pipeline that reads a binary file and decodes it into human-readable text through a three-stage transformation: **binary → ASCII → Morse code → letters**.
@@ -31,6 +30,7 @@ Morse              →  decoded letters → text output
 - Single-responsibility class design
 
 ## Build
+```
 bash
 g++ -std=c++11 -o binary_barts *.cpp
 ./binary_barts <input_binary_file>
