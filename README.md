@@ -1,5 +1,3 @@
-## 2. Binary_Barts
-
 # 🔢 Binary Barts
 
 A C++ translation pipeline that reads a binary file and decodes it into human-readable text through a three-stage transformation: **binary → ASCII → Morse code → letters**.
